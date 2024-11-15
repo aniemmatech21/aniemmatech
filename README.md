@@ -1,2 +1,0 @@
-# aniemmatech
-susu college
