@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    Aniemma Tech.
-    <link rel="shourtcut icon" href="Logo.png">
-  </head>
-  <body>
-    <form>
-      <div>
-        <label>Name:</label>
-        <input type="text" name="Name" id="Name" required>
-      </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="123456" required>
+        <br><br>
+        <button type="submit">Login</button>
     </form>
-  </body>
+</body>
 </html>
